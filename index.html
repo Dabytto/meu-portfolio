@@ -1,42 +1,66 @@
 <!DOCTYPE html>
-<title>Portfolio</title>
+<!-- Define o tipo do documento como HTML5 -->
 <html lang="pt-br">
-<head>
-    <meta charset="UTF-8">
-    <meta ht+tp-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="./styles/style.css">
-</head>
-<body>
-    <header class="cabecalho">
-        <nav class="cabecalho__menu">
-            <a class="cabecalho__menu__link" href="index.html">Home</a>
-            <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
-            <a class="cabecalho__menu__link" href="projects.html">Meus projetos</a>
-        </nav>
-    </header>
-    <main class="apresentacao">
-        <section class="apresentacao__conteudo">
-        <h1 class="apresentacao__conteudo__titulo"> Bem vindo ao meu <strong class="titulo-destaque">Portfólio</strong></h1>
-        <p class="apresentacao__conteudo__texto">Olá! Sou João Andrade, desenvolvedor Front-end com especialidade em <strong class="titulo-destaque">JAVASCRIPT HTML</strong> e <strong class="titulo-destaque">CSS</strong>.</p>
-        <div class="apresentacao__links">
-        <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
-        <a class="apresentacao__links__link" href="https://github.com/Dabytto?tab=repositories">
-            <img src="./assets/github.png" alt="github">
-            Github
-        </a>
-        <a class="apresentacao__links__link" href="https://www.linkedin.com/in/joaovfa/">
-            <img src="./assets/linkedin.png" alt="linkedin">
-            Linkedin
-        </a>
-        
-        </div>
-    </section>
-        <img src="./assets/joaostar.png" alt="Joao Andrade">
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Faz com que a página seja responsiva, se ajustando ao tamanho da tela do dispositivo -->
 
+    <title>Document</title>
+    <!-- Título da página que aparece na aba do navegador -->
+
+    <link rel="stylesheet" href="./styles/style.css" />
+    <!-- Importa o arquivo CSS externo com as estilizações da página -->
+  </head>
+
+  <body>
+    <!-- Cabeçalho da página contendo o menu de navegação com links para outras paginas -->
+    <header class="cabecalho">
+      <nav class="cabecalho__menu">
+        <a class="cabecalho__menu__link" href="index.html">Home</a>
+        <a class="cabecalho__menu__link" href="about.html">Sobre mim</a>
+        <a class="cabecalho__menu__link" href="projects.html">Meus projetos</a>
+        <a class="cabecalho__menu__link" href="landing-pages.html">Landing pages/Páginas estáticas</a>
+      </nav>
+    </header>
+
+    <!-- Conteúdo principal da página -->
+    <main class="apresentacao">
+      <section class="apresentacao__conteudo">
+        <!-- Título de boas-vindas com destaque na palavra "Portfólio" -->
+        <h1 class="apresentacao__conteudo__titulo">
+          Bem vindo ao meu <strong class="titulo-destaque">Portfólio</strong>
+        </h1>
+
+        <!-- Parágrafo com breve apresentação e destaque nas tecnologias usadas -->
+        <p class="apresentacao__conteudo__texto">
+          Olá! Sou João Andrade, desenvolvedor Front-end com especialidade em
+          <strong class="titulo-destaque">JAVASCRIPT HTML</strong> e
+          <strong class="titulo-destaque">CSS</strong>.
+        </p>
+
+        <!-- Seção de links para redes sociais -->
+        <div class="apresentacao__links">
+          <h2 class="apresentacao__links__subtitulo">Acesse minhas redes:</h2>
+
+          <a class="apresentacao__links__link" href="https://github.com/Dabytto?tab=repositories">
+            <img src="./assets/github.png" alt="github" />
+            Github
+          </a>
+
+          <a class="apresentacao__links__link" href="https://www.linkedin.com/in/joaovfa/">
+            <img src="./assets/linkedin.png" alt="linkedin" />
+            Linkedin
+          </a>
+        </div>
+      </section>
+
+      <!-- Minha imagem -->
+      <img src="./assets/joaostar.png" alt="Joao Andrade" />
     </main>
+
+    <!-- Rodapé da página com créditos -->
     <footer class="rodape">Desenvolvido por João Andrade</footer>
-</body>
+  </body>
 </html>
